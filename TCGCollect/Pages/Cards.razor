@@ -1,0 +1,40 @@
+﻿@page "/cards"
+@using TCGCollect.Services
+
+@inject ICardService cardService
+
+<PageTitle>Cards</PageTitle>
+
+<h1>Cards</h1>
+@if (cardList == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <div class="card-list">
+        @foreach (var g in cardList.GroupBy(c => c.GetDisplayName()))
+        {
+            <div class="card">
+                <a href="">+</a>
+                <h2>@g.Key</h2>
+                <div class="card-sets">
+                    @foreach(var card in g)
+                    {
+                        <h3>@card.ReferenceId</h3>
+                    }
+                </div>
+            </div>
+        }
+    </div>
+}
+
+
+@code {
+    Card[] cardList { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        cardList = await cardService.GetCardsAsync("g:OP s:OP09");
+    }
+}

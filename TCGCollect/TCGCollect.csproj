@@ -13,7 +13,22 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\TCGCollect.Core\TCGCollect.Core.csproj" />
+    <ProjectReference Include="..\TCGCollect.DataStore\TCGCollect.DataStore.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ServiceWorker Include="wwwroot\service-worker.js" PublishedContent="wwwroot\service-worker.published.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\sample-data\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="wwwroot\sample-data\cards.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,248 @@
+[
+  {
+    "Id": "1",
+    "Game": "FAB",
+    "Kind": "",
+    "ReferenceId": "HNT-104",
+    "Language": "English",
+    "SetName": "HNT",
+    "Rarity": "Common",
+    "IsFoil": false,
+    "FoilType": null,
+    "Number": "104",
+    "Faces": [
+      {
+        "Parts": [
+          {
+            "Name": "Part1",
+            "PrintedName": "Printed Part1",
+            "Text": "Some text for Part1",
+            "PrintedText": "Printed text for Part1",
+            "Type": "Monster",
+            "PrintedType": "Printed Monster",
+            "SubTypes": "Subtype1",
+            "PrintedSubTypes": "Printed Subtype1",
+            "CardColors": [
+              "Red",
+              "Blue"
+            ],
+            "Cost": 3,
+            "Artist": "Artist1",
+            "ImageSrc": "Image1.png"
+          }
+        ],
+        "Layout": "Normal"
+      }
+    ]
+  },
+  {
+    "Id": "2",
+    "Game": "FAB",
+    "Kind": "",
+    "ReferenceId": "HNT-106",
+    "Language": "English",
+    "SetName": "HNT",
+    "Rarity": "Common",
+    "IsFoil": false,
+    "FoilType": null,
+    "Number": "106",
+    "Faces": [
+      {
+        "Parts": [
+          {
+            "Name": "Part1",
+            "PrintedName": "Printed Part1",
+            "Text": "Some text for Part1",
+            "PrintedText": "Printed text for Part1",
+            "Type": "Monster",
+            "PrintedType": "Printed Monster",
+            "SubTypes": "Subtype1",
+            "PrintedSubTypes": "Printed Subtype1",
+            "CardColors": [
+              "Red",
+              "Blue"
+            ],
+            "Cost": 3,
+            "Artist": "Artist1",
+            "ImageSrc": "Image1.png"
+          }
+        ],
+        "Layout": "Normal"
+      }
+    ]
+  },
+  {
+    "Id": "2",
+    "Game": "OP",
+    "Kind": "",
+    "ReferenceId": "OP10-005",
+    "Language": "English",
+    "SetName": "OP10",
+    "Rarity": "Rare",
+    "IsFoil": true,
+    "FoilType": "Holo",
+    "Number": null,
+    "Faces": [
+      {
+        "Parts": [
+          {
+            "Name": "NameA",
+            "PrintedName": "Printed PartA",
+            "Text": "Some text for PartA",
+            "PrintedText": "Printed text for PartA",
+            "Type": "Warrior",
+            "PrintedType": "Printed Warrior",
+            "SubTypes": "SubtypeA",
+            "PrintedSubTypes": "Printed SubtypeA",
+            "CardColors": [
+              "Black"
+            ],
+            "Cost": 4,
+            "Artist": "ArtistA",
+            "ImageSrc": "ImageA.png"
+          },
+          {
+            "Name": "NameB",
+            "PrintedName": "Printed PartB",
+            "Text": "Some text for PartB",
+            "PrintedText": "Printed text for PartB",
+            "Type": "Artifact",
+            "PrintedType": "Printed Artifact",
+            "SubTypes": "SubtypeB",
+            "PrintedSubTypes": "Printed SubtypeB",
+            "CardColors": [
+              "White"
+            ],
+            "Cost": 1,
+            "Artist": "ArtistB",
+            "ImageSrc": "ImageB.png"
+          }
+        ],
+        "Layout": "Split"
+      }
+    ]
+  },
+  {
+    "Id": "2",
+    "Game": "OP",
+    "Kind": "",
+    "ReferenceId": "OP10-005",
+    "Language": "English",
+    "SetName": "OP10",
+    "Rarity": "Rare",
+    "IsFoil": true,
+    "FoilType": "Holo",
+    "Number": null,
+    "Faces": [
+      {
+        "Parts": [
+          {
+            "Name": "NameAA",
+            "PrintedName": "Printed PartA",
+            "Text": "Some text for PartA",
+            "PrintedText": "Printed text for PartA",
+            "Type": "Warrior",
+            "PrintedType": "Printed Warrior",
+            "SubTypes": "SubtypeA",
+            "PrintedSubTypes": "Printed SubtypeA",
+            "CardColors": [
+              "Black"
+            ],
+            "Cost": 4,
+            "Artist": "ArtistA",
+            "ImageSrc": "ImageA.png"
+          },
+          {
+            "Name": "NameAB",
+            "PrintedName": "Printed PartB",
+            "Text": "Some text for PartB",
+            "PrintedText": "Printed text for PartB",
+            "Type": "Artifact",
+            "PrintedType": "Printed Artifact",
+            "SubTypes": "SubtypeB",
+            "PrintedSubTypes": "Printed SubtypeB",
+            "CardColors": [
+              "White"
+            ],
+            "Cost": 1,
+            "Artist": "ArtistB",
+            "ImageSrc": "ImageB.png"
+          }
+        ],
+        "Layout": "Split"
+      }
+    ]
+  },
+  {
+    "Id": "5",
+    "Game": "OP",
+    "Kind": "",
+    "ReferenceId": "OP10-105",
+    "Language": "English",
+    "SetName": "OP10",
+    "Rarity": "Common",
+    "IsFoil": false,
+    "FoilType": null,
+    "Number": "104",
+    "Faces": [
+      {
+        "Parts": [
+          {
+            "Name": "NameC",
+            "PrintedName": "Printed Part1",
+            "Text": "Some text for Part1",
+            "PrintedText": "Printed text for Part1",
+            "Type": "Monster",
+            "PrintedType": "Printed Monster",
+            "SubTypes": "Subtype1",
+            "PrintedSubTypes": "Printed Subtype1",
+            "CardColors": [
+              "Red",
+              "Blue"
+            ],
+            "Cost": 3,
+            "Artist": "Artist1",
+            "ImageSrc": "Image1.png"
+          }
+        ],
+        "Layout": "Normal"
+      }
+    ]
+  },
+  {
+    "Id": "6",
+    "Game": "OP",
+    "Kind": "",
+    "ReferenceId": "OP10-105",
+    "Language": "English",
+    "SetName": "OP10",
+    "Rarity": "Common",
+    "IsFoil": false,
+    "FoilType": null,
+    "Number": "104",
+    "Faces": [
+      {
+        "Parts": [
+          {
+            "Name": "NameD",
+            "PrintedName": "Printed Part1",
+            "Text": "Some text for Part1",
+            "PrintedText": "Printed text for Part1",
+            "Type": "Creature",
+            "PrintedType": "Printed Monster",
+            "SubTypes": "Subtype1",
+            "PrintedSubTypes": "Printed Subtype1",
+            "CardColors": [
+              "Red",
+              "Blue"
+            ],
+            "Cost": 3,
+            "Artist": "Artist1",
+            "ImageSrc": "Image1.png"
+          }
+        ],
+        "Layout": "Normal"
+      }
+    ]
+  }
+]
