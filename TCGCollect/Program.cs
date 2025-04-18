@@ -13,6 +13,8 @@ builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.
 // Configure CardStoreConfiguration using IConfiguration  
 CardStoreConfiguration cardStoreConfiguration = new();
 builder.Configuration.GetSection("CardStore").Bind(cardStoreConfiguration);
+if (String.IsNullOrEmpty(cardStoreConfiguration.ConnectionString))
+    cardStoreConfiguration.ConnectionString = builder.HostEnvironment.BaseAddress;
 builder.Services.AddSingleton(cardStoreConfiguration);
 builder.Services.AddSingleton<InMemoryCardStore>();
 builder.Services.AddScoped<ICardService, CardService>();

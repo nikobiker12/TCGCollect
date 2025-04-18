@@ -1,5 +1,6 @@
 ﻿using System.Text.Json;
 using FluentStorage;
+using FluentStorage.Blobs;
 using TCGCollect.Core;
 
 namespace TCGCollect.DataStore
@@ -11,9 +12,17 @@ namespace TCGCollect.DataStore
 
         public async Task Seed(CancellationToken cancellationToken = default)
         {
-            // Create a storage provider for the folder/container
-            var storage = StorageFactory.Blobs.FromConnectionString(_cardStoreConfiguration.ConnectionString);
-
+            IBlobStorage storage;
+            if (_cardStoreConfiguration.ConnectionString.StartsWith("http"))
+            {
+                HttpClient http = new HttpClient();
+                http.BaseAddress = new Uri(_cardStoreConfiguration.ConnectionString);
+                storage = new HttpBlobStorage(http);
+            }
+            else
+            {
+                storage = StorageFactory.Blobs.FromConnectionString(_cardStoreConfiguration.ConnectionString);
+            }
             // Retrieve all JSON files from the folder/container
             var jsonFiles = await storage.ListAsync(new FluentStorage.Blobs.ListOptions
             {

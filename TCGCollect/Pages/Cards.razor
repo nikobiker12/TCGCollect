@@ -29,12 +29,11 @@ else
     </div>
 }
 
-
 @code {
-    Card[] cardList { get; set; }
+    Card[]? cardList { get; set; }
 
     protected override async Task OnInitializedAsync()
     {
-        cardList = await cardService.GetCardsAsync("g:OP s:OP09");
+        cardList = await cardService.GetCardsAsync("g:OP");
     }
 }
